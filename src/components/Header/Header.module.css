@@ -7,10 +7,10 @@
 }
 
 .bar {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
   padding: 14px 32px 10px;
 }
 
@@ -35,6 +35,65 @@
   letter-spacing: 0.01em;
   color: var(--color-brand);
   white-space: nowrap;
+}
+
+.menuToggle {
+  display: none;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 8px;
+  flex: 0 0 auto;
+}
+
+.menuIcon,
+.menuIcon::before,
+.menuIcon::after {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--color-ink);
+  border-radius: 1px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.menuIcon {
+  position: relative;
+}
+
+.menuIcon::before,
+.menuIcon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.menuIcon::before {
+  top: -7px;
+}
+
+.menuIcon::after {
+  top: 7px;
+}
+
+.menuToggle[aria-expanded="true"] .menuIcon {
+  background: transparent;
+}
+
+.menuToggle[aria-expanded="true"] .menuIcon::before {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menuToggle[aria-expanded="true"] .menuIcon::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -97,10 +156,60 @@
   .wordmark {
     display: none;
   }
+
+  .menuToggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.35);
+    padding: 4px 32px 24px;
+  }
+
+  .menuOpen {
+    display: flex;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .navLink {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .langSwitch {
+    justify-content: center;
+    margin: 16px 0 4px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
 }
 
 @media (max-width: 480px) {
   .bar {
     padding: 14px 20px 10px;
+  }
+
+  .menu {
+    padding: 4px 20px 24px;
   }
 }
