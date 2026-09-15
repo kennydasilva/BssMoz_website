@@ -25,6 +25,16 @@ export function QuoteForm() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    const subject = lang === "pt" ? `Pedido de cotação - ${familia}` : `Quote request - ${familia}`;
+    const body = [
+      `${t.campoNome}: ${form.nome}`,
+      `${t.campoContacto}: ${form.contacto}`,
+      `${t.campoFamilia}: ${familia}`,
+      `${t.campoDetalhe}: ${form.detalhe}`,
+    ].join("\n");
+
+    window.location.href = `mailto:commercial@bssmoz.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setEnviado(true);
   };
 
@@ -67,7 +77,6 @@ export function QuoteForm() {
               className={styles.input}
               value={form.contacto}
               onChange={setField("contacto")}
-              placeholder="+258 ..."
             />
           </label>
           <label className={styles.field}>
