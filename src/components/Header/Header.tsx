@@ -11,7 +11,8 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.bar}>
         <a href="#topo" className={styles.logoLink}>
-          <img className={styles.logo} src="/images/bss-logo.png" alt="BSS - Better Steel Solutions" />
+          <img className={styles.logo} src="/images/bss-logo.png" alt="BSS" />
+          <span className={styles.wordmark}>Better Steel Solutions</span>
         </a>
         <nav className={styles.nav}>
           {t.nav.map((item) => (

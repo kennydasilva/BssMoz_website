@@ -9,7 +9,8 @@ export function Footer() {
       <div className={`container ${styles.main}`}>
         <div>
           <div className={styles.brandRow}>
-            <img className={styles.logo} src="/images/bss-logo.png" alt="BSS - Better Steel Solutions" />
+            <img className={styles.logo} src="/images/bss-logo.png" alt="BSS" />
+            <span className={styles.wordmark}>Better Steel Solutions</span>
           </div>
           <p className={styles.tagline}>{t.rodapeTexto}</p>
         </div>
