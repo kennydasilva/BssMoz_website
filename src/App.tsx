@@ -4,6 +4,9 @@ import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { FamilyGrid } from "./components/FamilyGrid/FamilyGrid";
 import { FullCatalog } from "./components/FullCatalog/FullCatalog";
+import { Services } from "./components/Services/Services";
+import { Projects } from "./components/Projects/Projects";
+import { About } from "./components/About/About";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
           <Hero />
           <FamilyGrid />
           <FullCatalog />
+          <Services />
+          <Projects />
+          <About />
         </main>
       </CatalogFilterProvider>
     </LanguageProvider>
