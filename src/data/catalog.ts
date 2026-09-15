@@ -1,4 +1,4 @@
-import type { Family, Material, Product } from "../types";
+import type { Family, Material, Product, ProjectPhoto } from "../types";
 
 export const FAMILIES: Family[] = [
   {
@@ -252,5 +252,38 @@ export const PRODUCTS: Product[] = [
       pt: [["Uso", "Escadas industriais"], ["Acabamento", "Galvanizado"], ["Medidas", "Sob consulta"]],
       en: [["Use", "Industrial stairs"], ["Finish", "Galvanised"], ["Sizes", "On request"]],
     },
+  },
+];
+
+export const PROJECT_PHOTOS: ProjectPhoto[] = [
+  {
+    photo: "/images/armazem.png",
+    alt: { pt: "Perfis empilhados no armazém em Boane", en: "Profiles stacked in the Boane warehouse" },
+    caption: { pt: "Armazém em Boane, pronto para expedição", en: "Boane warehouse, ready for dispatch" },
+  },
+  {
+    photo: "/images/corte.png",
+    alt: { pt: "Corte de chapa a laser", en: "Sheet cut on the laser" },
+    caption: { pt: "Corte laser e plasma à medida do projeto", en: "Laser and plasma cutting to the project's size" },
+  },
+  {
+    photo: "/images/estrutural.png",
+    alt: { pt: "Perfis estruturais em aço", en: "Steel structural profiles" },
+    caption: { pt: "Perfis estruturais para obras e pórticos", en: "Structural profiles for buildings and portal frames" },
+  },
+  {
+    photo: "/images/grelhas.png",
+    alt: { pt: "Grelha galvanizada e corrimão", en: "Galvanised grating and handrail" },
+    caption: { pt: "Grelhas e corrimãos para plataformas", en: "Grating and handrail for platforms" },
+  },
+  {
+    photo: "/images/chapas.png",
+    alt: { pt: "Chapas e placas de metal", en: "Metal sheet and plate" },
+    caption: { pt: "Chapas e placas cortadas à medida", en: "Sheet and plate cut to size" },
+  },
+  {
+    photo: "/images/tubos.png",
+    alt: { pt: "Tubos redondos e quadrados", en: "Round and square tube" },
+    caption: { pt: "Tubos e canos em várias secções", en: "Tube and pipe in several sections" },
   },
 ];

@@ -47,8 +47,6 @@ export interface Translation {
   projetosLabel: string;
   projetosTitulo: string;
   projetosTexto: string;
-  projetoLegenda: string;
-  projetoPlaceholder: string;
   sobreLabel: string;
   sobreTitulo: string;
   sobreParas: string[];
@@ -112,9 +110,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     comoFunciona: "Como funciona um pedido",
     projetosLabel: "Projetos",
     projetosTitulo: "Material nosso, obras dos nossos clientes.",
-    projetosTexto: "Esta galeria está à espera das fotografias reais das obras. Arraste as imagens para cada espaço e escreva a legenda.",
-    projetoLegenda: "Legenda da obra: cliente, local e material fornecido",
-    projetoPlaceholder: "Foto da obra",
+    projetosTexto: "Uma amostra dos materiais e processos que preparamos para os projetos dos nossos clientes.",
     sobreLabel: "Sobre nós",
     sobreTitulo: "Uma empresa jovem no mercado do aço em Moçambique.",
     sobreParas: [
@@ -222,9 +218,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     comoFunciona: "How an order works",
     projetosLabel: "Projects",
     projetosTitulo: "Our material, our clients' work.",
-    projetosTexto: "This gallery is waiting for real site photographs. Drop the images into each slot and write the caption.",
-    projetoLegenda: "Project caption: client, location and material supplied",
-    projetoPlaceholder: "Site photograph",
+    projetosTexto: "A sample of the materials and processes we prepare for our clients' projects.",
     sobreLabel: "About us",
     sobreTitulo: "A young company in Mozambique's steel market.",
     sobreParas: [

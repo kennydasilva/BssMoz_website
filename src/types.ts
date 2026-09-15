@@ -33,3 +33,9 @@ export interface FaqItem {
   question: string;
   answer: string;
 }
+
+export interface ProjectPhoto {
+  photo: string;
+  alt: LocalizedText;
+  caption: LocalizedText;
+}

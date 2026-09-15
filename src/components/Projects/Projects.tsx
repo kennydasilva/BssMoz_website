@@ -1,17 +1,9 @@
+import { PROJECT_PHOTOS } from "../../data/catalog";
 import { useLanguage } from "../../state/LanguageContext";
 import styles from "./Projects.module.css";
 
-const PROJECT_PHOTOS = [
-  "/images/armazem.png",
-  "/images/corte.png",
-  "/images/estrutural.png",
-  "/images/grelhas.png",
-  "/images/chapas.png",
-  "/images/tubos.png",
-];
-
 export function Projects() {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   return (
     <section id="projetos" className={styles.section}>
@@ -22,12 +14,12 @@ export function Projects() {
           <p className={styles.text}>{t.projetosTexto}</p>
         </div>
         <div className={styles.grid}>
-          {PROJECT_PHOTOS.map((photo, i) => (
-            <figure key={photo + i} className={styles.figure}>
+          {PROJECT_PHOTOS.map((item) => (
+            <figure key={item.photo} className={styles.figure}>
               <div className={styles.imageWrap}>
-                <img className={styles.image} src={photo} alt={t.projetoPlaceholder} />
+                <img className={styles.image} src={item.photo} alt={item.alt[lang]} />
               </div>
-              <figcaption className={styles.caption}>{t.projetoLegenda}</figcaption>
+              <figcaption className={styles.caption}>{item.caption[lang]}</figcaption>
             </figure>
           ))}
         </div>
