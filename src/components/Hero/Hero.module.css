@@ -1,0 +1,149 @@
+.section {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.grid {
+  padding: 96px 32px 84px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 64px;
+  align-items: center;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-border-strong);
+  margin-bottom: 38px;
+}
+
+.metaLocal {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-right: auto;
+}
+
+.metaWarehouse {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: var(--color-brand);
+  flex: 0 0 auto;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 5.6vw, 66px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin-bottom: 26px;
+}
+
+.sub {
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--color-muted);
+  max-width: 50ch;
+  margin-bottom: 38px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  background: var(--color-brand);
+  padding: 17px 28px;
+}
+
+.primary:hover {
+  color: #ffffff;
+  background: var(--color-brand-hover);
+}
+
+.secondary {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-ink);
+  border: 1px solid var(--color-border-input);
+  padding: 17px 28px;
+}
+
+.secondary:hover {
+  color: var(--color-ink);
+  border-color: var(--color-brand-light);
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--color-bg-raised);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.statsWrap {
+  padding: 0 32px 84px;
+}
+
+.stats {
+  border: 1px solid var(--color-border);
+  border-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.stat {
+  padding: 26px 28px;
+  border-left: 1px solid var(--color-border);
+}
+
+.statKey {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  margin-bottom: 8px;
+}
+
+.statValue {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+@media (max-width: 480px) {
+  .grid {
+    padding: 72px 20px 56px;
+  }
+
+  .statsWrap {
+    padding: 0 20px 56px;
+  }
+}

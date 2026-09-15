@@ -1,8 +1,22 @@
+import { LanguageProvider } from "./state/LanguageContext";
+import { CatalogFilterProvider } from "./state/CatalogFilterContext";
+import { Header } from "./components/Header/Header";
+import { Hero } from "./components/Hero/Hero";
+import { FamilyGrid } from "./components/FamilyGrid/FamilyGrid";
+import { FullCatalog } from "./components/FullCatalog/FullCatalog";
+
 function App() {
   return (
-    <div style={{ padding: 40 }}>
-      <h1>BSS — Better Steel Solutions</h1>
-    </div>
+    <LanguageProvider>
+      <CatalogFilterProvider>
+        <Header />
+        <main>
+          <Hero />
+          <FamilyGrid />
+          <FullCatalog />
+        </main>
+      </CatalogFilterProvider>
+    </LanguageProvider>
   );
 }
 
