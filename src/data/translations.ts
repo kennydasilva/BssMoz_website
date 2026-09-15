@@ -72,6 +72,8 @@ export interface Translation {
   catalogoPdf: string;
   rodapeTexto: string;
   assinatura: string;
+  horarioLabel: string;
+  horario: string[];
   servicos: Service[];
   passos: Step[];
   faq: FaqItem[];
@@ -140,6 +142,8 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     catalogoPdf: "Catálogo PDF",
     rodapeTexto: "Fornecedor de metais e materiais de construção em Moçambique.",
     assinatura: "Aço · Precisão · Confiança",
+    horarioLabel: "Horário de funcionamento",
+    horario: ["Segunda a sexta-feira: 08:00 – 16:00", "Sábados, domingos e feriados: fechado"],
     servicos: [
       { n: "01", nome: "Corte laser", desc: "Precisão em chapa e placa" },
       { n: "02", nome: "Corte plasma", desc: "Para maiores espessuras" },
@@ -248,6 +252,8 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     catalogoPdf: "Catalogue PDF",
     rodapeTexto: "Supplier of metals and construction materials in Mozambique.",
     assinatura: "Steel · Precision · Trust",
+    horarioLabel: "Business hours",
+    horario: ["Monday to Friday: 8:00 AM – 4:00 PM", "Saturdays, Sundays and public holidays: closed"],
     servicos: [
       { n: "01", nome: "Laser cutting", desc: "Precision in sheet and plate" },
       { n: "02", nome: "Plasma cutting", desc: "For heavier thicknesses" },
