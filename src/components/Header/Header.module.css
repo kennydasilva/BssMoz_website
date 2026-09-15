@@ -152,9 +152,9 @@
   background: var(--color-brand-hover);
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1080px) {
   .wordmark {
-    display: none;
+    font-size: 14px;
   }
 
   .menuToggle {
@@ -207,9 +207,24 @@
 @media (max-width: 480px) {
   .bar {
     padding: 14px 20px 10px;
+    gap: 10px;
+  }
+
+  .logoLink {
+    gap: 8px;
+  }
+
+  .wordmark {
+    font-size: 12px;
   }
 
   .menu {
     padding: 4px 20px 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .wordmark {
+    display: none;
   }
 }
