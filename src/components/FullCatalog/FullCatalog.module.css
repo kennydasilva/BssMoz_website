@@ -112,7 +112,7 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-brand-light);
+  color: var(--color-brand);
   white-space: nowrap;
 }
 
@@ -147,7 +147,7 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .cardCta:hover {

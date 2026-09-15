@@ -22,7 +22,7 @@
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.01em;
-  color: #1865ff;
+  color: var(--color-brand);
 }
 
 .tagline {
@@ -52,7 +52,7 @@
 }
 
 .link:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .address {
@@ -85,7 +85,7 @@
 }
 
 .facebook:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .signature {

@@ -40,11 +40,11 @@
 }
 
 .question:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .questionOpen {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .questionText {
@@ -57,7 +57,7 @@
 .questionSign {
   font-size: 20px;
   font-weight: 700;
-  color: var(--color-brand-light);
+  color: var(--color-brand);
   line-height: 1;
 }
 

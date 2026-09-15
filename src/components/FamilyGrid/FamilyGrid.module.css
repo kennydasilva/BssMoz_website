@@ -30,7 +30,7 @@
 }
 
 .consult:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .grid {
@@ -116,7 +116,7 @@
 }
 
 .open:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .openArrow {

@@ -33,7 +33,7 @@
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.01em;
-  color: #1865ff;
+  color: var(--color-brand);
   white-space: nowrap;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .navLink:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand);
 }
 
 .langSwitch {
