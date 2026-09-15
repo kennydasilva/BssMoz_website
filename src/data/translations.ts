@@ -25,7 +25,6 @@ export interface Step {
 export interface Translation {
   pedirPreco: string;
   local: string;
-  armazem: string;
   h1: string;
   sub: string;
   verCatalogo: string;
@@ -86,7 +85,6 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
   pt: {
     pedirPreco: "Pedir preço",
     local: "Matola Rio · Boane, Moçambique",
-    armazem: "Armazém local",
     h1: "Metal cortado à medida, pronto para a obra.",
     sub: "Perfis estruturais, chapas, tubos, corrimãos e grelhas em aço, inox, galvanizado, alumínio, latão, cobre, Hardox e fibra de vidro.",
     verCatalogo: "Ver catálogo",
@@ -197,7 +195,6 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
   en: {
     pedirPreco: "Get a price",
     local: "Matola Rio · Boane, Mozambique",
-    armazem: "Local warehouse",
     h1: "Metal cut to size, ready for site.",
     sub: "Structural profiles, sheet, tube, handrail and grating in steel, stainless, galvanised, aluminium, brass, copper, Hardox and fibreglass.",
     verCatalogo: "View catalogue",

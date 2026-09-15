@@ -10,10 +10,6 @@ export function Hero() {
         <div>
           <div className={styles.meta}>
             <span className={styles.metaLocal}>{t.local}</span>
-            <span className={styles.metaWarehouse}>
-              <span className={styles.dot} />
-              {t.armazem}
-            </span>
           </div>
           <h1 className={styles.title}>{t.h1}</h1>
           <p className={styles.sub}>{t.sub}</p>
