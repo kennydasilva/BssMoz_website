@@ -74,9 +74,11 @@ export function QuoteForm() {
           <label className={styles.field}>
             {t.campoContacto}
             <input
+              type="email"
               className={styles.input}
               value={form.contacto}
               onChange={setField("contacto")}
+              placeholder="nome@empresa.co.mz"
             />
           </label>
           <label className={styles.field}>
