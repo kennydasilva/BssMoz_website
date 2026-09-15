@@ -12,7 +12,7 @@ export function Header() {
       <div className={styles.bar}>
         <a href="#topo" className={styles.logoLink}>
           <img className={styles.logo} src="/images/bss-logo.png" alt="BSS" />
-          <span className={styles.wordmark}>Better Steel Solutions</span>
+          <span className={styles.wordmark}>Better Steel Solutions, Lda</span>
         </a>
         <nav className={styles.nav}>
           {t.nav.map((item) => (

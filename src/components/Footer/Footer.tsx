@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <div className={styles.brandRow}>
             <img className={styles.logo} src="/images/bss-logo.png" alt="BSS" />
-            <span className={styles.wordmark}>Better Steel Solutions</span>
+            <span className={styles.wordmark}>Better Steel Solutions, Lda</span>
           </div>
           <p className={styles.tagline}>{t.rodapeTexto}</p>
         </div>
