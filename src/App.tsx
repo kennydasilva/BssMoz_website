@@ -7,6 +7,10 @@ import { FullCatalog } from "./components/FullCatalog/FullCatalog";
 import { Services } from "./components/Services/Services";
 import { Projects } from "./components/Projects/Projects";
 import { About } from "./components/About/About";
+import { Faq } from "./components/Faq/Faq";
+import { CtaBanner } from "./components/CtaBanner/CtaBanner";
+import { QuoteForm } from "./components/QuoteForm/QuoteForm";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,7 +24,11 @@ function App() {
           <Services />
           <Projects />
           <About />
+          <Faq />
+          <CtaBanner />
+          <QuoteForm />
         </main>
+        <Footer />
       </CatalogFilterProvider>
     </LanguageProvider>
   );

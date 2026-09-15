@@ -1,0 +1,99 @@
+.main {
+  padding: 72px 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 48px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.logo {
+  height: 42px;
+  width: auto;
+}
+
+.tagline {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-muted);
+  max-width: 40ch;
+}
+
+.label {
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.links {
+  display: grid;
+  gap: 11px;
+  font-size: 15px;
+}
+
+.link {
+  color: var(--color-ink);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+.address {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+
+.bottomBar {
+  border-top: 1px solid var(--color-border);
+}
+
+.bottomRow {
+  padding: 22px 32px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 12.5px;
+  color: var(--color-muted);
+  margin-right: auto;
+}
+
+.facebook {
+  font-size: 12.5px;
+  color: var(--color-muted);
+}
+
+.facebook:hover {
+  color: var(--color-brand-light);
+}
+
+.signature {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 56px 20px;
+  }
+
+  .bottomRow {
+    padding: 22px 20px;
+  }
+}
