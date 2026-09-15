@@ -85,7 +85,7 @@ export interface Translation {
 export const TRANSLATIONS: Record<Lang, Translation> = {
   pt: {
     pedirPreco: "Pedir preço",
-    local: "Matola Rio · Boane — Moçambique",
+    local: "Matola Rio · Boane, Moçambique",
     armazem: "Armazém local",
     h1: "Metal cortado à medida, pronto para a obra.",
     sub: "Perfis estruturais, chapas, tubos, corrimãos e grelhas em aço, inox, galvanizado, alumínio, latão, cobre, Hardox e fibra de vidro.",
@@ -103,7 +103,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     catalogoCompleto: "Catálogo completo",
     catalogoTitulo: "Todos os produtos, filtráveis.",
     catalogoTexto:
-      "Filtre por família ou por material. Qualquer comprimento pode ser encomendado, incluindo decimais — por exemplo 5,26 m. Medidas exatas e stock confirmam-se por telefone ou e-mail.",
+      "Filtre por família ou por material. Qualquer comprimento pode ser encomendado, incluindo decimais, por exemplo 5,26 m. Medidas exatas e stock confirmam-se por telefone ou e-mail.",
     filtrarFamilia: "Família",
     filtrarMaterial: "Material",
     todos: "Todos",
@@ -115,7 +115,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     projetosLabel: "Projetos",
     projetosTitulo: "Material nosso, obras dos nossos clientes.",
     projetosTexto: "Esta galeria está à espera das fotografias reais das obras. Arraste as imagens para cada espaço e escreva a legenda.",
-    projetoLegenda: "Legenda da obra — cliente, local e material fornecido",
+    projetoLegenda: "Legenda da obra: cliente, local e material fornecido",
     projetoPlaceholder: "Foto da obra",
     sobreLabel: "Sobre nós",
     sobreTitulo: "Uma empresa jovem no mercado do aço em Moçambique.",
@@ -162,7 +162,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     faq: [
       {
         question: "Vendem ao metro ou só em barras inteiras?",
-        answer: "Vendemos no comprimento que precisar, incluindo decimais — por exemplo 5,26 m. Cortamos size-to-size antes da entrega.",
+        answer: "Vendemos no comprimento que precisar, incluindo decimais, por exemplo 5,26 m. Cortamos size-to-size antes da entrega.",
       },
       {
         question: "Que materiais têm disponíveis?",
@@ -178,11 +178,11 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       },
       {
         question: "Onde fica o armazém?",
-        answer: "Av. da Namaacha, Residência n.º 25, Prolongamento do Km 16, Matola Rio — Boane.",
+        answer: "Av. da Namaacha, Residência n.º 25, Prolongamento do Km 16, Matola Rio, Boane.",
       },
       {
         question: "Conseguem material que não está no catálogo?",
-        answer: "Muitas vezes sim. A equipa comercial tem experiência a localizar material difícil de obter — descreva o que precisa.",
+        answer: "Muitas vezes sim. A equipa comercial tem experiência a localizar material difícil de obter. Descreva o que precisa.",
       },
     ],
     nav: [
@@ -196,7 +196,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
   },
   en: {
     pedirPreco: "Get a price",
-    local: "Matola Rio · Boane — Mozambique",
+    local: "Matola Rio · Boane, Mozambique",
     armazem: "Local warehouse",
     h1: "Metal cut to size, ready for site.",
     sub: "Structural profiles, sheet, tube, handrail and grating in steel, stainless, galvanised, aluminium, brass, copper, Hardox and fibreglass.",
@@ -214,7 +214,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     catalogoCompleto: "Full catalogue",
     catalogoTitulo: "Every product, filterable.",
     catalogoTexto:
-      "Filter by family or by material. Any length can be ordered, decimals included — for example 5.26 m. Exact sizes and stock are confirmed by phone or e-mail.",
+      "Filter by family or by material. Any length can be ordered, decimals included, for example 5.26 m. Exact sizes and stock are confirmed by phone or e-mail.",
     filtrarFamilia: "Family",
     filtrarMaterial: "Material",
     todos: "All",
@@ -226,7 +226,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     projetosLabel: "Projects",
     projetosTitulo: "Our material, our clients' work.",
     projetosTexto: "This gallery is waiting for real site photographs. Drop the images into each slot and write the caption.",
-    projetoLegenda: "Project caption — client, location and material supplied",
+    projetoLegenda: "Project caption: client, location and material supplied",
     projetoPlaceholder: "Site photograph",
     sobreLabel: "About us",
     sobreTitulo: "A young company in Mozambique's steel market.",
@@ -273,7 +273,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     faq: [
       {
         question: "Do you sell by the metre or only full lengths?",
-        answer: "We sell the length you need, decimals included — for example 5.26 m. We cut size-to-size before delivery.",
+        answer: "We sell the length you need, decimals included, for example 5.26 m. We cut size-to-size before delivery.",
       },
       {
         question: "Which materials do you carry?",
@@ -289,11 +289,11 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       },
       {
         question: "Where is the warehouse?",
-        answer: "Av. da Namaacha, Residence no. 25, Km 16 extension, Matola Rio — Boane.",
+        answer: "Av. da Namaacha, Residence no. 25, Km 16 extension, Matola Rio, Boane.",
       },
       {
         question: "Can you source material not in the catalogue?",
-        answer: "Often yes. Our commercial team is experienced at locating hard-to-find material — describe what you need.",
+        answer: "Often yes. Our commercial team is experienced at locating hard-to-find material. Describe what you need.",
       },
     ],
     nav: [

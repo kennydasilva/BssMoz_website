@@ -9,7 +9,7 @@ export function Footer() {
       <div className={`container ${styles.main}`}>
         <div>
           <div className={styles.brandRow}>
-            <img className={styles.logo} src="/images/bss-logo.png" alt="BSS — Better Steel Solutions" />
+            <img className={styles.logo} src="/images/bss-logo.png" alt="BSS - Better Steel Solutions" />
           </div>
           <p className={styles.tagline}>{t.rodapeTexto}</p>
         </div>
@@ -42,7 +42,7 @@ export function Footer() {
             <br />
             Prolongamento do Km 16
             <br />
-            Matola Rio — Boane
+            Matola Rio, Boane
           </div>
         </div>
       </div>

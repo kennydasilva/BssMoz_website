@@ -1,4 +1,4 @@
-# BSS — Better Steel Solutions
+# BSS - Better Steel Solutions
 
 Site institucional da BSS (Better Steel Solutions), fornecedor de metais e
 materiais de construção em Moçambique. Construído em React + TypeScript com Vite.

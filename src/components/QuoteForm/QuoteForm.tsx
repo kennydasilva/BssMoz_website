@@ -32,7 +32,7 @@ export function QuoteForm() {
     { k: lang === "pt" ? "Telefone" : "Phone", v: "+258 84 802 9476" },
     { k: lang === "pt" ? "Telefone" : "Phone", v: "+258 84 803 8846" },
     { k: "E-mail", v: "commercial@bssmoz.com" },
-    { k: t.endereco, v: "Av. da Namaacha n.º 25, Km 16, Matola Rio — Boane" },
+    { k: t.endereco, v: "Av. da Namaacha n.º 25, Km 16, Matola Rio, Boane" },
   ];
 
   return (
