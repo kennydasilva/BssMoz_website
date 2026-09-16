@@ -27,7 +27,7 @@ export function Footer() {
               commercial@bssmoz.com
             </a>
             <a
-              href="https://bssmoz.com/onewebmedia/BSS%20-%20CATALOGUE.pdf"
+              href="/catalogo/BSS_CATALOGUE.pdf"
               target="_blank"
               rel="noopener"
               className={styles.link}
