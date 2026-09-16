@@ -45,11 +45,8 @@ export function Footer() {
             <br />
             Matola Rio, Boane
           </div>
-          <div className={`${styles.label} ${styles.horarioLabel}`}>{t.horarioLabel}</div>
-          <div className={styles.address}>
-            {t.horario.map((linha) => (
-              <div key={linha}>{linha}</div>
-            ))}
+          <div className={styles.horario}>
+            <strong>{t.horarioLabel}:</strong> {t.horario.join(" · ")}
           </div>
         </div>
       </div>

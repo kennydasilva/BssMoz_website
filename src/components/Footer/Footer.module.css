@@ -61,8 +61,16 @@
   color: var(--color-ink);
 }
 
-.horarioLabel {
-  margin-top: 24px;
+.horario {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+.horario strong {
+  color: var(--color-ink);
+  font-weight: 600;
 }
 
 .bottomBar {
