@@ -9,7 +9,7 @@ export const FAMILIES: Family[] = [
       pt: "Vigas I e T, canal U, ângulos, barras chatas e redondas.",
       en: "I and T beams, U channel, angles, flat and round bar.",
     },
-    photo: "/images/estrutural.png",
+    photo: "/images/products/i-bar.jpg",
   },
   {
     id: "plates",
@@ -19,7 +19,7 @@ export const FAMILIES: Family[] = [
       pt: "Chapa lisa, xadrez, Hardox e soluções para cobertura.",
       en: "Plain sheet, chequer plate, Hardox and roofing solutions.",
     },
-    photo: "/images/chapas.png",
+    photo: "/images/products/chapa-lisa.jpg",
   },
   {
     id: "tube",
@@ -29,7 +29,7 @@ export const FAMILIES: Family[] = [
       pt: "Formatos redondos, quadrados, retangulares e ovais.",
       en: "Round, square, rectangular and oval formats.",
     },
-    photo: "/images/tubos.png",
+    photo: "/images/products/tubo-quadrado.jpg",
   },
   {
     id: "handrail",
@@ -39,7 +39,7 @@ export const FAMILIES: Family[] = [
       pt: "Grelhas, corrimãos, degraus e plataformas resistentes.",
       en: "Grating, handrail, treads and hard-wearing platforms.",
     },
-    photo: "/images/grelhas.png",
+    photo: "/images/handrail-family.jpg",
   },
 ];
 
@@ -262,28 +262,28 @@ export const PROJECT_PHOTOS: ProjectPhoto[] = [
     caption: { pt: "Armazém em Boane, pronto para expedição", en: "Boane warehouse, ready for dispatch" },
   },
   {
-    photo: "/images/corte.png",
-    alt: { pt: "Corte de chapa a laser", en: "Sheet cut on the laser" },
-    caption: { pt: "Corte laser e plasma à medida do projeto", en: "Laser and plasma cutting to the project's size" },
+    photo: "/images/corte-metal.jpg",
+    alt: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
+    caption: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
   },
   {
-    photo: "/images/estrutural.png",
-    alt: { pt: "Perfis estruturais em aço", en: "Steel structural profiles" },
-    caption: { pt: "Perfis estruturais para obras e pórticos", en: "Structural profiles for buildings and portal frames" },
+    photo: "/images/products/canal-u.jpg",
+    alt: { pt: "Canal", en: "Channel" },
+    caption: { pt: "Canal", en: "Channel" },
   },
   {
-    photo: "/images/grelhas.png",
-    alt: { pt: "Grelha galvanizada e corrimão", en: "Galvanised grating and handrail" },
-    caption: { pt: "Grelhas e corrimãos para plataformas", en: "Grating and handrail for platforms" },
+    photo: "/images/products/grelha.jpg",
+    alt: { pt: "Grelha", en: "Grating" },
+    caption: { pt: "Grelha", en: "Grating" },
   },
   {
-    photo: "/images/chapas.png",
-    alt: { pt: "Chapas e placas de metal", en: "Metal sheet and plate" },
-    caption: { pt: "Chapas e placas cortadas à medida", en: "Sheet and plate cut to size" },
+    photo: "/images/products/chapa-xadrez.jpg",
+    alt: { pt: "Placa e folha", en: "Sheet and plate" },
+    caption: { pt: "Placa e folha", en: "Sheet and plate" },
   },
   {
-    photo: "/images/tubos.png",
-    alt: { pt: "Tubos redondos e quadrados", en: "Round and square tube" },
-    caption: { pt: "Tubos e canos em várias secções", en: "Tube and pipe in several sections" },
+    photo: "/images/products/tubo-redondo.jpg",
+    alt: { pt: "Tubo", en: "Tube" },
+    caption: { pt: "Tubo", en: "Tube" },
   },
 ];
