@@ -1,15 +1,15 @@
 :root {
-  --color-bg: #121212;
-  --color-bg-raised: #191918;
-  --color-bg-inset: #1f1e1d;
-  --color-ink: #edeae5;
-  --color-muted: #9c9a94;
-  --color-subtle: #c9c6c0;
-  --color-border: #262523;
-  --color-border-strong: #2e2d2a;
-  --color-border-input: #33312e;
-  --color-brand: #1e4db3;
-  --color-brand-hover: #2a5fd0;
+  --color-bg: #ffffff;
+  --color-bg-raised: #f5f6f8;
+  --color-bg-inset: #edeff3;
+  --color-ink: #14161a;
+  --color-muted: #686c74;
+  --color-subtle: #3c3f45;
+  --color-border: #e6e8ec;
+  --color-border-strong: #d9dce1;
+  --color-border-input: #c7cbd1;
+  --color-brand: #1a56ff;
+  --color-brand-hover: #0f42d1;
   --font-display: "Poppins", system-ui, sans-serif;
   --font-body: "Archivo", system-ui, sans-serif;
   --max-width: 1320px;

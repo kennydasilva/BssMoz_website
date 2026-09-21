@@ -257,9 +257,9 @@ export const PRODUCTS: Product[] = [
 
 export const PROJECT_PHOTOS: ProjectPhoto[] = [
   {
-    photo: "/images/armazem.png",
-    alt: { pt: "Perfis empilhados no armazém em Boane", en: "Profiles stacked in the Boane warehouse" },
-    caption: { pt: "Armazém em Boane, pronto para expedição", en: "Boane warehouse, ready for dispatch" },
+    photo: "/images/products/flange.jpg",
+    alt: { pt: "Flange", en: "Flange" },
+    caption: { pt: "Flange", en: "Flange" },
   },
   {
     photo: "/images/corte-metal.jpg",
