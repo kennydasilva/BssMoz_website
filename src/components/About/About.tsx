@@ -18,7 +18,7 @@ export function About() {
         </div>
         <div className={styles.side}>
           <div className={styles.imageWrap}>
-            <img className={styles.image} src="/images/sobre-zbar.jpg" alt="Barra Z em alumínio" />
+            <img className={styles.image} src="/images/bss-logo.png" alt="Logótipo BSS" />
           </div>
           <div>
             <div className={styles.valuesLabel}>{t.valoresLabel}</div>
