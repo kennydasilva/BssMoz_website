@@ -23,7 +23,7 @@ export function Hero() {
           </div>
         </div>
         <div className={styles.imageWrap}>
-          <img className={styles.image} src="/images/armazem.png" alt="Foto do armazém, perfis empilhados" />
+          <img className={styles.image} src="/images/hero-tubo-inox.jpg" alt="Tubo quadrado em inox" />
         </div>
       </div>
       <div className={`container ${styles.statsWrap}`}>

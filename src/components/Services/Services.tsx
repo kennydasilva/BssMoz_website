@@ -12,7 +12,7 @@ export function Services() {
           <h2 className={styles.title}>{t.servicosTitulo}</h2>
           <p className={styles.text}>{t.servicosTexto}</p>
           <div className={styles.imageWrap}>
-            <img className={styles.image} src="/images/corte.png" alt="Foto de corte laser / plasma" />
+            <img className={styles.image} src="/images/servicos-flange.jpg" alt="Flanges em aço inox" />
           </div>
         </div>
         <div>
