@@ -40,6 +40,8 @@ export interface Translation {
   filtrarMaterial: string;
   todos: string;
   pedirMedida: string;
+  pedidoProdutoAssunto: (produto: string) => string;
+  pedidoProdutoCorpo: (produto: string) => string;
   servicosLabel: string;
   servicosTitulo: string;
   servicosTexto: string;
@@ -107,6 +109,9 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     filtrarMaterial: "Material",
     todos: "Todos",
     pedirMedida: "Pedir medida e preço",
+    pedidoProdutoAssunto: (produto) => `Pedido de medida e preço — ${produto}`,
+    pedidoProdutoCorpo: (produto) =>
+      `Bom dia,\n\nGostaria de pedir medida e preço para: ${produto}.\n\nMaterial:\nMedidas:\nQuantidade:\n\nObrigado.`,
     servicosLabel: "Serviços",
     servicosTitulo: "Processamos o material ao seu tamanho.",
     servicosTexto: "O material sai do armazém cortado e preparado, para chegar à obra pronto a montar.",
@@ -218,6 +223,9 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     filtrarMaterial: "Material",
     todos: "All",
     pedirMedida: "Ask size and price",
+    pedidoProdutoAssunto: (produto) => `Size and price request — ${produto}`,
+    pedidoProdutoCorpo: (produto) =>
+      `Hello,\n\nI would like to request size and price for: ${produto}.\n\nMaterial:\nSizes:\nQuantity:\n\nThank you.`,
     servicosLabel: "Services",
     servicosTitulo: "We process material to your size.",
     servicosTexto: "Material leaves the warehouse cut and prepared, so it reaches site ready to assemble.",

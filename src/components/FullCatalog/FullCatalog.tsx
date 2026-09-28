@@ -79,7 +79,12 @@ export function FullCatalog() {
                     </div>
                   ))}
                 </div>
-                <a href="mailto:commercial@bssmoz.com" className={styles.cardCta}>
+                <a
+                  href={`mailto:commercial@bssmoz.com?subject=${encodeURIComponent(
+                    t.pedidoProdutoAssunto(product.name[lang]),
+                  )}&body=${encodeURIComponent(t.pedidoProdutoCorpo(product.name[lang]))}`}
+                  className={styles.cardCta}
+                >
                   {t.pedirMedida} →
                 </a>
               </article>
