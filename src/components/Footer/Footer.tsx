@@ -17,14 +17,25 @@ export function Footer() {
         <div>
           <div className={styles.label}>{t.contactoLabel}</div>
           <div className={styles.links}>
-            <a href="tel:+258848029476" className={styles.link}>
-              +258 84 802 9476
-            </a>
             <a href="tel:+258848038846" className={styles.link}>
               +258 84 803 8846
             </a>
+            <a
+              href="https://wa.me/258848038846"
+              target="_blank"
+              rel="noopener"
+              className={styles.link}
+            >
+              WhatsApp · +258 84 803 8846
+            </a>
+            <a href="tel:+258848029476" className={styles.link}>
+              +258 84 802 9476 ({t.alternativo})
+            </a>
             <a href="mailto:commercial@bssmoz.com" className={styles.link}>
               commercial@bssmoz.com
+            </a>
+            <a href="mailto:stefane.macie@bssmoz.com" className={styles.link}>
+              stefane.macie@bssmoz.com
             </a>
             <a
               href="/catalogo/BSS_CATALOGUE.pdf"

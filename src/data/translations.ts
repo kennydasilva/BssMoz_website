@@ -70,6 +70,7 @@ export interface Translation {
   enviadoMsg: string;
   endereco: string;
   catalogoPdf: string;
+  alternativo: string;
   rodapeTexto: string;
   assinatura: string;
   horarioLabel: string;
@@ -140,6 +141,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     enviadoMsg: "O seu e-mail deve abrir com o pedido preenchido. Se não abrir, escreva para commercial@bssmoz.com.",
     endereco: "Endereço",
     catalogoPdf: "Catálogo PDF",
+    alternativo: "alternativo",
     rodapeTexto: "Fornecedor de metais e materiais de construção em Moçambique.",
     assinatura: "Aço · Precisão · Confiança",
     horarioLabel: "Horário de funcionamento",
@@ -172,7 +174,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       },
       {
         question: "Como peço um preço?",
-        answer: "Ligue para +258 84 802 9476 ou envie e-mail para commercial@bssmoz.com com o produto, material, medidas e quantidade. Também pode usar o formulário desta página.",
+        answer: "Ligue ou envie WhatsApp para +258 84 803 8846 (alternativo: +258 84 802 9476), ou envie e-mail para commercial@bssmoz.com ou stefane.macie@bssmoz.com com o produto, material, medidas e quantidade. Também pode usar o formulário desta página.",
       },
       {
         question: "Onde fica o armazém?",
@@ -250,6 +252,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     enviadoMsg: "Your e-mail app should open with the request filled in. If it doesn't, write to commercial@bssmoz.com.",
     endereco: "Address",
     catalogoPdf: "Catalogue PDF",
+    alternativo: "alternative",
     rodapeTexto: "Supplier of metals and construction materials in Mozambique.",
     assinatura: "Steel · Precision · Trust",
     horarioLabel: "Business hours",
@@ -282,7 +285,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       },
       {
         question: "How do I get a price?",
-        answer: "Call +258 84 802 9476 or e-mail commercial@bssmoz.com with the product, material, sizes and quantity. You can also use the form on this page.",
+        answer: "Call or WhatsApp +258 84 803 8846 (alternative: +258 84 802 9476), or e-mail commercial@bssmoz.com or stefane.macie@bssmoz.com with the product, material, sizes and quantity. You can also use the form on this page.",
       },
       {
         question: "Where is the warehouse?",

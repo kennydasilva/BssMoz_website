@@ -12,8 +12,8 @@ export function CtaBanner() {
           <p className={styles.text}>{t.ctaTexto}</p>
         </div>
         <div className={styles.actions}>
-          <a href="tel:+258848029476" className={styles.phone}>
-            +258 84 802 9476
+          <a href="tel:+258848038846" className={styles.phone}>
+            +258 84 803 8846
           </a>
           <a href="mailto:commercial@bssmoz.com" className={styles.email}>
             {t.email}
