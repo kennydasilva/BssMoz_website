@@ -3,7 +3,7 @@ import { useLanguage } from "../../state/LanguageContext";
 import type { Lang } from "../../types";
 import styles from "./Header.module.css";
 
-const LANGS: Lang[] = ["pt", "en"];
+const LANGS: Lang[] = ["en", "pt"];
 
 export function Header() {
   const { lang, setLang, t } = useLanguage();
