@@ -124,7 +124,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     sobreParas: [
       "A Better Steel Solutions (BSS) fornece produtos de aço manufaturado com padrões internacionais, numa gama larga de materiais para responder à maioria dos requisitos dos nossos clientes.",
       "A missão é prestar um serviço de alta qualidade como fornecedor de metais, com forte compromisso com rapidez e eficiência. O conhecimento técnico da equipa comercial permite localizar material difícil de obter.",
-      "Reunimos num só fornecedor todos os requisitos de metal do cliente, com preços competitivos e capacidade de corte à medida e chanfro de arestas.",
+      "Reunimos num só fornecedor todos os requisitos de metal do cliente, com preços competitivos. Quando necessário, o material pode ser cortado e preparado antes da entrega.",
     ],
     valoresLabel: "Valores",
     valores: ["Excelência", "Inovação", "Zero acidentes", "Paixão", "Integridade"],
@@ -167,15 +167,11 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     faq: [
       {
         question: "Vendem ao metro ou só em barras inteiras?",
-        answer: "Vendemos no comprimento que precisar, incluindo decimais, por exemplo 5,26 m. Cortamos size-to-size antes da entrega.",
+        answer: "Vendemos no comprimento que precisar, incluindo decimais, por exemplo 5,26 m.",
       },
       {
         question: "Que materiais têm disponíveis?",
         answer: "Aço-carbono, inox, galvanizado, alumínio, latão, cobre, Hardox, Zintec, acetal e fibra de vidro. Disponibilidade por medida confirma-se por telefone.",
-      },
-      {
-        question: "Fazem corte laser e plasma?",
-        answer: "Sim. Corte laser para precisão em chapa e placa, plasma para espessuras maiores e formas recortadas. Também chanframos arestas.",
       },
       {
         question: "Como peço um preço?",
@@ -188,6 +184,10 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       {
         question: "Conseguem material que não está no catálogo?",
         answer: "Muitas vezes sim. A equipa comercial tem experiência a localizar material difícil de obter. Descreva o que precisa.",
+      },
+      {
+        question: "Também fazem corte?",
+        answer: "Sim, como serviço complementar ao fornecimento: corte laser e plasma, e chanfro de arestas, quando o projeto pede.",
       },
     ],
     nav: [
@@ -238,7 +238,7 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     sobreParas: [
       "Better Steel Solutions (BSS) supplies manufactured steel products to international standards, across a wide range of materials to meet most of our clients' requirements.",
       "Our mission is to deliver high-quality service as a metal supplier, with a strong commitment to speed and efficiency. Our commercial team's technical knowledge lets us source hard-to-find material.",
-      "We bring all of a client's metal requirements to a single supplier, with competitive pricing and in-house cut-to-size and edge bevelling.",
+      "We bring all of a client's metal requirements to a single supplier, with competitive pricing. Where needed, material can be cut and prepared before delivery.",
     ],
     valoresLabel: "Values",
     valores: ["Excellence", "Innovation", "Zero harm", "Passion", "Integrity"],
@@ -281,15 +281,11 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
     faq: [
       {
         question: "Do you sell by the metre or only full lengths?",
-        answer: "We sell the length you need, decimals included, for example 5.26 m. We cut size-to-size before delivery.",
+        answer: "We sell the length you need, decimals included, for example 5.26 m.",
       },
       {
         question: "Which materials do you carry?",
         answer: "Carbon steel, stainless, galvanised, aluminium, brass, copper, Hardox, Zintec, acetal and fibreglass. Availability per size is confirmed by phone.",
-      },
-      {
-        question: "Do you do laser and plasma cutting?",
-        answer: "Yes. Laser for precision in sheet and plate, plasma for heavier thicknesses and profiled shapes. We also bevel edges.",
       },
       {
         question: "How do I get a price?",
@@ -302,6 +298,10 @@ export const TRANSLATIONS: Record<Lang, Translation> = {
       {
         question: "Can you source material not in the catalogue?",
         answer: "Often yes. Our commercial team is experienced at locating hard-to-find material. Describe what you need.",
+      },
+      {
+        question: "Do you also cut material?",
+        answer: "Yes, as a complementary service to supply: laser and plasma cutting, and edge bevelling, when the project calls for it.",
       },
     ],
     nav: [
