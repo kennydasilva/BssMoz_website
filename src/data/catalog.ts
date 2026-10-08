@@ -262,11 +262,6 @@ export const PROJECT_PHOTOS: ProjectPhoto[] = [
     caption: { pt: "Flange", en: "Flange" },
   },
   {
-    photo: "/images/corte-metal.jpg",
-    alt: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
-    caption: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
-  },
-  {
     photo: "/images/products/canal-u.jpg",
     alt: { pt: "Canal", en: "Channel" },
     caption: { pt: "Canal", en: "Channel" },
@@ -285,5 +280,10 @@ export const PROJECT_PHOTOS: ProjectPhoto[] = [
     photo: "/images/products/tubo-redondo.jpg",
     alt: { pt: "Tubo", en: "Tube" },
     caption: { pt: "Tubo", en: "Tube" },
+  },
+  {
+    photo: "/images/corte-metal.jpg",
+    alt: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
+    caption: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
   },
 ];
