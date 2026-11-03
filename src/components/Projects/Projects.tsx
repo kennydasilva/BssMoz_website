@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { PROJECT_PHOTOS } from "../../data/catalog";
 import { useLanguage } from "../../state/LanguageContext";
 import styles from "./Projects.module.css";
 
 export function Projects() {
   const { lang, t } = useLanguage();
+  const [missing, setMissing] = useState<Record<string, boolean>>({});
 
   return (
     <section id="projetos" className={styles.section}>
@@ -17,7 +19,19 @@ export function Projects() {
           {PROJECT_PHOTOS.map((item) => (
             <figure key={item.photo} className={styles.figure}>
               <div className={styles.imageWrap}>
-                <img className={styles.image} src={item.photo} alt={item.alt[lang]} />
+                {missing[item.photo] ? (
+                  <div className={styles.placeholder} aria-hidden="true">
+                    {lang === "pt" ? "Foto em breve" : "Photo coming soon"}
+                  </div>
+                ) : (
+                  <img
+                    className={styles.image}
+                    src={item.photo}
+                    alt={item.alt[lang]}
+                    loading="lazy"
+                    onError={() => setMissing((m) => ({ ...m, [item.photo]: true }))}
+                  />
+                )}
               </div>
               <figcaption className={styles.caption}>{item.caption[lang]}</figcaption>
             </figure>
