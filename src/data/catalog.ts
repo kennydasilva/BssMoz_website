@@ -255,35 +255,27 @@ export const PRODUCTS: Product[] = [
   },
 ];
 
+// Fotos de projetos realizados. Coloque as imagens em public/images/projetos/
+// com estes nomes (ou altere o caminho) e ajuste as legendas.
 export const PROJECT_PHOTOS: ProjectPhoto[] = [
   {
-    photo: "/images/products/flange.jpg",
-    alt: { pt: "Flange", en: "Flange" },
-    caption: { pt: "Flange", en: "Flange" },
+    photo: "/images/projetos/projeto-1.jpg",
+    alt: { pt: "Camião BSS carregado com tubos e chapas de aço", en: "BSS truck loaded with steel pipes and plates" },
+    caption: { pt: "Entrega de tubos e chapas de aço em obra", en: "Steel pipe and plate delivery to site" },
   },
   {
-    photo: "/images/products/canal-u.jpg",
-    alt: { pt: "Canal", en: "Channel" },
-    caption: { pt: "Canal", en: "Channel" },
+    photo: "/images/projetos/projeto-2.jpg",
+    alt: { pt: "Tubos de aço e vigas presos na carroçaria de um camião", en: "Steel pipes and beams strapped on a truck bed" },
+    caption: { pt: "Tubos de aço e vigas prontos para transporte", en: "Steel pipes and beams ready for transport" },
   },
   {
-    photo: "/images/products/grelha.jpg",
-    alt: { pt: "Grelha", en: "Grating" },
-    caption: { pt: "Grelha", en: "Grating" },
+    photo: "/images/projetos/projeto-3.jpg",
+    alt: { pt: "Chapas de aço marcadas BSS e vigas H no estaleiro", en: "BSS-marked steel plates and H-beams on site" },
+    caption: { pt: "Chapas de aço e vigas H entregues ao cliente", en: "Steel plates and H-beams delivered to the client" },
   },
   {
-    photo: "/images/products/chapa-xadrez.jpg",
-    alt: { pt: "Placa e folha", en: "Sheet and plate" },
-    caption: { pt: "Placa e folha", en: "Sheet and plate" },
-  },
-  {
-    photo: "/images/products/tubo-redondo.jpg",
-    alt: { pt: "Tubo", en: "Tube" },
-    caption: { pt: "Tubo", en: "Tube" },
-  },
-  {
-    photo: "/images/corte-metal.jpg",
-    alt: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
-    caption: { pt: "Corte de metal sob medida", en: "Custom metal cutting" },
+    photo: "/images/projetos/projeto-4.jpg",
+    alt: { pt: "Painéis de vedação e rolos de arame num camião", en: "Fence panels and wire rolls on a truck" },
+    caption: { pt: "Painéis de vedação e arame para entrega", en: "Fence panels and wire for delivery" },
   },
 ];
